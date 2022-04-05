@@ -1,0 +1,48 @@
+.SelectContainer {
+    background-color: rgb(37, 53, 47);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+ .SelectButton {
+    width: 130px;
+    height: 30px;
+    color: whitesmoke;
+    background-color: black;
+    border-radius: 25px;
+    border: 1px solid black;
+}
+
+.SelectPlaceholder {
+    color: brown;
+    font-weight: bold;
+
+}
+
+.SelectLabel {
+    color: white;
+}
+
+.SelectTitle {
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+
+.SelectContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.collapsed {
+    display: none;
+}
+
